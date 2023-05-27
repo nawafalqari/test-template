@@ -1,1 +1,5 @@
 name = "test"
+description = "just a test template for quick"
+
+[variables]
+files = ["main.py"]
