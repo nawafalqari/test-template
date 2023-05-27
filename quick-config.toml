@@ -2,4 +2,9 @@ name = "test"
 description = "just a test template for quick"
 
 [variables]
-files = ["main.py"]
+variables = [
+  { "path": "main.py", "variables": [{
+    "name": "name",
+    "prompt": "Enter your name: "
+  }] }
+]
