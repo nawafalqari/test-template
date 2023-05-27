@@ -1,10 +1,10 @@
 name = "test"
 description = "just a test template for quick"
 
-[variables]
-variables = [
-  { "path": "main.py", "variables": [{
-    "name": "name",
-    "prompt": "Enter your name: "
-  }] }
-]
+
+[[varfiles]]
+path = "main.py"
+
+  [[varfiles.variables]]
+  name = "name"
+  prompt = "Enter your name: "
