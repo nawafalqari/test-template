@@ -1,6 +1,7 @@
 name = "test"
 description = "just a test template for quick"
 
+exclude = ["test.py"]
 
 [[varfiles]]
 path = "main.py"
