@@ -1,6 +1,6 @@
 name = "test"
 description = "just a test template for quick"
-after_get_message = "\n\nUse 'python main.py bro\n\n"
+after_get_message = "\n\nUse 'python main.py' bro\n\n"
 
 ignore = ["test.py"]
 
